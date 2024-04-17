@@ -50,7 +50,6 @@ namespace main
             {
                 return;
             }
-            Console.WriteLine($"Request: {requestJson}");
             Request request;
             try
             {
