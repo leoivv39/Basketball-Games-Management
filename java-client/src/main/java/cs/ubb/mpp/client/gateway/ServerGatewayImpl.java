@@ -31,10 +31,8 @@ public class ServerGatewayImpl implements ServerGateway {
         try {
             Socket socket = new Socket(hostname, port);
             String requestJson = jsonParser.parseToJson(request);
-            System.out.println(requestJson);
             SocketUtils.writeString(socket, requestJson);
             String responseJson = SocketUtils.readString(socket);
-            System.out.println(responseJson);
             Response response = jsonParser.parseToResponse(responseJson);
             return response;
         } catch (IOException e) {
