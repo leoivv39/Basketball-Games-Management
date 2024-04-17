@@ -1,0 +1,14 @@
+2024-03-18 11:33:56,870 [1] INFO  UserRepository - Saving User server.domain.User
+2024-03-18 11:35:57,388 [1] INFO  UserRepository - Saving User server.domain.User
+2024-03-18 11:36:53,081 [1] INFO  UserRepository - Saving User server.domain.User
+2024-03-18 11:37:58,409 [1] INFO  UserRepository - Saving User server.domain.User
+2024-03-18 11:37:58,500 [1] INFO  SoldTicketRepository - Finding SoldTicket by id 4
+2024-03-18 11:38:44,500 [1] INFO  UserRepository - Saving User server.domain.User
+2024-03-18 11:38:44,593 [1] INFO  TeamRepository - Saving Team id=, name=Spurs, city=SanAntonio
+2024-03-18 11:38:44,607 [1] INFO  SoldTicketRepository - Finding SoldTicket by id 4
+2024-03-18 11:52:32,199 [1] INFO  UserRepository - Saving User server.domain.User
+2024-03-18 11:52:32,299 [1] INFO  TeamRepository - Saving Team id=, name=Spurs, city=SanAntonio
+2024-03-18 11:52:32,315 [1] INFO  SoldTicketRepository - Finding SoldTicket by id 4
+2024-03-30 12:49:43,362 [1] INFO  UserRepository - Saving User server.domain.User
+2024-03-30 12:49:43,501 [1] INFO  TeamRepository - Saving Team id=, name=Spurs, city=SanAntonio
+2024-03-30 12:49:43,514 [1] INFO  SoldTicketRepository - Finding SoldTicket by id 4
