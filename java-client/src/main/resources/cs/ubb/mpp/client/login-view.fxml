@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="600.0" style="-fx-background-color: #7096d4;" styleClass="main-container" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs.ubb.mpp.client.controller.LoginController">
+   <children>
+      <VBox alignment="CENTER">
+         <children>
+            <AnchorPane>
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="403.0" layoutY="79.0" stroke="#dadada" strokeType="INSIDE" style="-fx-arc-width: 20; -fx-arc-height: 20;" styleClass="login-rectangle" width="281.0" AnchorPane.bottomAnchor="78.0" AnchorPane.topAnchor="79.0" />
+                  <Text layoutX="30.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN" wrappingWidth="86.09765625">
+                     <font>
+                        <Font name="Berlin Sans FB" size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="30.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="usernameField" layoutX="30.0" layoutY="220.0" prefHeight="32.0" prefWidth="233.0" />
+                  <Text layoutX="30.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button onAction="#onLogin" layoutX="38.0" layoutY="384.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="217.0" style="-fx-background-color: #fa2d5d; -fx-font-weight: bold; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0); -fx-background-radius: 15px; -fx-font-size: 15;" text="LOGIN" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="63.0" layoutY="454.0" opacity="0.57" strokeType="OUTSIDE" strokeWidth="0.0" text="Need an account?" wrappingWidth="149.880859375">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Text>
+                  <PasswordField fx:id="passwordField" layoutX="30.0" layoutY="307.0" prefHeight="32.0" prefWidth="233.0" />
+                  <Text fx:id="errorText" fill="RED" layoutX="26.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+                  <Hyperlink onAction="#onSignUp" layoutX="173.0" layoutY="438.0" style="-fx-text-fill: #fa2d5d;" text="SIGN UP" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</HBox>
